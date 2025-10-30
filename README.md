@@ -1,6 +1,6 @@
 # Intro to Remote Access Protocols Overview Guide
 
-**TODO:** A brief introductory guide to several remote access protocols.
+**Description/Overview:** Remote access protocols are standardized sets of rules that provide users and/or devices wih the ability to establish connections with or otherwise control remote devices via network connections. This guide briefly explores four of the most common remote access protocols: Telnet, Secure Shell (SSH), Virtual Networking Computing (VNC), and Remote Desktop Protocol (RDP). These protocols have similarities, but also differences concerning their intended purposes, means of interfacing, device portability, and approaches to security.
 
 #### Table of Contents
 
@@ -46,8 +46,6 @@
 | Compatibility | | | | |
 | Security Approach | | | | |
 | Port(s) | | | | |
-
-
 
 <hr />
 
