@@ -39,7 +39,15 @@
 
 ## 5. <a name="table">Remote Access Protocols Comparison Table</a>
 
-(TODO)
+| Feature | Telnet | SSH | VNC | RDP |
+| :---: | :---: | :---: | :---: | :---: |
+| Intended Use | | | | |
+| Interface Type | | | | |
+| Compatibility | | | | |
+| Security Approach | | | | |
+| Port(s) | | | | |
+
+
 
 <hr />
 
