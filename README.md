@@ -43,9 +43,10 @@
 | :---: | :---: | :---: | :---: | :---: |
 | Popular Uses | Remote login. Often used for testing port connectivity and managing network interfaces (e.g., routers). | Securely encrypted (see 'Security Approach' below) remote desktop access. | Remote desktop access, for purposes such as file access, technical support, and server management. | High-performance remote desktop access, for purposes such as file access, technical support, and server management. |
 | Interface Type | Command Line Interface (CLI). | Command Line Interface (CLI). | Graphic User Interface (GUI). | Graphic User Interface (GUI). |
-| Compatibility | Cross-platform. | Cross-platform. | Cross-platform. | Intended for Windows OSes. |
+| Compatibility | Cross-platform. | Cross-platform. | Cross-platform. | *Can* be used cross-platform, but designed with Windows OSes in mind. |
 | Security | Highly insecure (data is sent unencrypted, in plaintext). | Significant security advantages over Telnet, such as encrypted tunnels and support for robust authentication procedures. | Not encrypted by default, but can be easily integrated with encrypted SSH tunnels. | Not secure by default, but can be integrated with secure technologies (e.g., VPNs). |
 | Port(s) | Port 23 (TCP). | Port 22 (TCP). | Port 5900 (TCP), with additional sessions using the next port up (5901, 5902, etc.). | Port 3389 (TCP). |
+| Request for Comments (RFCs) | [854](https://datatracker.ietf.org/doc/html/rfc854) | [4253](https://datatracker.ietf.org/doc/html/rfc4253) | [6143](https://datatracker.ietf.org/doc/html/rfc6143) | [908](https://datatracker.ietf.org/doc/html/rfc908) (Initial), [1151](https://datatracker.ietf.org/doc/html/rfc1151) (Version 2) |
 
 <hr />
 
