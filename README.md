@@ -45,6 +45,6 @@
 
 ## 6. <a name="supplemental">Supplemental Resources</a>
 
-(TODO)
-
-<hr />
+* *[UltraVNC Remote Access Tools Official Website](https://uvnc.com/)*
+* *[Chrome Remote Desktop Official Website](https://remotedesktop.google.com/)*
+* *[Microsoft Article on Telnet](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/telnet)*
