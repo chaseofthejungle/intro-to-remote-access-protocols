@@ -15,7 +15,13 @@
 
 ## 1. <a name="telnet">Telnet</a>
 
-(TODO)
+*Telnet* is an unsecure (non-encrypted) remote network access protocol. Featuring a command-line user interface, Telnet has been utilized for such purposes as port testing and network interface (e.g., servers, switches, routers) configurations and maintenance. However, as it transmits and exposes data in plaintext (even sensitive authentication data, such as usernames and passwords), it is generally ill-advised to use it for sending confidential data or managing production environments. Eavesdropping/man-in-the-middle and interception/replay attacks remain common concerns about using Telnet.
+
+**Telnet operates by...**
+
+1) Establishing a connection to a remote host via TCP Port 23 (although it can be configured to operate over a different port).
+2) Enabling text-based communications between clients and servers (both client-to-server and server-to-client).
+3) Allowing users to log in to remote devices and run terminal commands, providing the same functionality that they would have if they were working locally. 
 
 <hr />
 
