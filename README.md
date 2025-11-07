@@ -27,7 +27,14 @@
 
 ## 2. <a name="ssh">Secure Shell (SSH)</a>
 
-(TODO)
+*Secure Shell (SSH)* can be thought of as a step up from Telnet, or as a Telnet replacement. It is a remote network access protocol that allows for authenticated network device management, operating in a client-server paradigm in which SSH clients connect to remote SSH servers, while encrypting any data transmitted (unlike Telnet, which sends data in plaintext). This means that configuration commands, username and password combinations, and transferred files are all protected from eavesdropping/man-in-the-middle and interception/replay attacks.
+
+**SSH operates by...**
+
+1) An SSH client connecting to a remote device's SSH server.
+2) The SSH client and server forming a secure/encrypted tunnel by interacting in a cryptographic key exchange (using Diffie-Hellman or another key exchange encryption algorithm).
+3) The server authenticating the client (using username/password, a public SSH key, multifactor authentication, or some other authentication mechanism).
+4) Now that an encrypted channel session has been made, file transfers (using Secure File Transfer Protocol (SFTP), Secure Copy Protocol (SCP), and other protocols), administrative command executions, automated scripts, VM and cloud app management, and other activities being conducted securely. 
 
 <hr />
 
